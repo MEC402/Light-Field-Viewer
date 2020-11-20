@@ -1,11 +1,12 @@
 # Light-Field-Viewer
 
 This is a light field viewer impleamented in OpenGL based on Levoy and Hanrehan paper [1] using the ligh field dataset in [2].
-The light field rendering calculation is done with shaders to esure fast rendering. The rendering is done at 60 FPS.
+The light field rendering calculation is done with shaders to esure fast rendering. The rendering is done at about 60 FPS.
 The code can only handel squar image grid. The light field samples are loaded as a texture atlas.
 All the light fields in the result have 17x17 grid.
 
 [1] Levoy, Marc, and Pat Hanrahan. "Light field rendering." Proceedings of the 23rd annual conference on Computer graphics and interactive techniques. 1996.
+
 [2] Jarabo, Adrian, et al. "How do people edit light fields." ACM Transactions on Graphics (Proc. SIGGRAPH). Vol. 33. No. 4. 2014.
 
 ## Results
