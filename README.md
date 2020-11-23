@@ -1,6 +1,6 @@
 # Light-Field-Viewer
 
-This is a light field viewer implemented in OpenGL based on Levoy and Hanrehan paper [1] using the light field dataset in [2]. The light field rendering calculation is done with shaders to ensure fast rendering. The code can only handle square image grids. The light field samples are loaded as a texture atlas. All the light fields in the result have 17x17 grid.
+This is a light field viewer implemented in OpenGL based on Levoy and Hanrahan paper [1] using the light field dataset in [2]. The light field rendering calculation is done with shaders to ensure fast rendering. The code can only handle square image grids. The light field samples are loaded as a texture atlas. All the light fields in the result have 17x17 grid.
 
 [1] Levoy, Marc, and Pat Hanrahan. "Light field rendering." Proceedings of the 23rd annual conference on Computer graphics and interactive techniques. 1996.
 
